@@ -3,7 +3,7 @@ name: Django CI
 on:
   # any code pushed to master and develop branch will be a trigger
   push:
-    branches: [ "main", "develop", "learning-1"  ]
+    branches: [ "learning-1"  ]
   # any code pushed to master and develop branch will also be a trigger
   pull_request:
     branches: [ "main"]
